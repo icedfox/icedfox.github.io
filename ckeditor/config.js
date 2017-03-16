@@ -7,5 +7,5 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
-	config.embed_provider = '//iframe.ly/api/oembed?url={url}&callback={callback}';
+	config.embed_provider = 'http://iframe.ly/api/oembed?url={url}&callback={callback}';
 };
