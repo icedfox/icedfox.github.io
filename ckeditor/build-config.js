@@ -13,10 +13,10 @@
  * (1) http://ckeditor.com/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) http://ckeditor.com/builder/bf65ff1840326c1341d499610127982d
+ * (2) http://ckeditor.com/builder/dcfac1d222e8db8e83a9dbd7f1e95102
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) http://ckeditor.com/builder/download/bf65ff1840326c1341d499610127982d
+ * (3) http://ckeditor.com/builder/download/dcfac1d222e8db8e83a9dbd7f1e95102
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -51,6 +51,7 @@ var CKBUILDER_CONFIG = {
 	plugins : {
 		'a11yhelp' : 1,
 		'about' : 1,
+		'autoembed' : 1,
 		'basicstyles' : 1,
 		'bidi' : 1,
 		'blockquote' : 1,
@@ -62,7 +63,7 @@ var CKBUILDER_CONFIG = {
 		'dialogadvtab' : 1,
 		'div' : 1,
 		'elementspath' : 1,
-		'embed' : 1,
+		'embedsemantic' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
 		'filebrowser' : 1,
@@ -76,8 +77,7 @@ var CKBUILDER_CONFIG = {
 		'htmlwriter' : 1,
 		'iframe' : 1,
 		'image' : 1,
-		'imagebrowser' : 1,
-		'imgbrowse' : 1,
+		'imageuploader' : 1,
 		'indentblock' : 1,
 		'indentlist' : 1,
 		'justify' : 1,
@@ -85,10 +85,10 @@ var CKBUILDER_CONFIG = {
 		'link' : 1,
 		'list' : 1,
 		'liststyle' : 1,
-		'locationmap' : 1,
 		'magicline' : 1,
 		'maximize' : 1,
 		'newpage' : 1,
+		'niftytimers' : 1,
 		'pagebreak' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
@@ -110,14 +110,17 @@ var CKBUILDER_CONFIG = {
 		'tabletools' : 1,
 		'templates' : 1,
 		'toolbar' : 1,
+		'uicolor' : 1,
 		'undo' : 1,
-		'uploadcare' : 1,
+		'uploadimage' : 1,
+		'wordcount' : 1,
 		'wsc' : 1,
 		'wysiwygarea' : 1,
 		'youtube' : 1
 	},
 	languages : {
 		'en' : 1,
-		'fr' : 1
+		'fr' : 1,
+		'it' : 1
 	}
 };
