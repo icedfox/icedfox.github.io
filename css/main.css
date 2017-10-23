@@ -1,19 +1,9 @@
-html {
-	/*scroll-behavior: smooth;*/
-}
+html { /*scroll-behavior: smooth;*/ }
+body { overflow-x: hidden; }
 
-body {
-	overflow-x: hidden;
-}
+#about { padding-top: 5%; }
 
-#about {
-	/*scroll-behavior: smooth;*/
-	padding-top: 5%;
-}
-
-.centered {
-	text-align: center;
-}
+.centered { text-align: center; }
 
 .header-icons { height: 15px; width: 15px; }
 .header-text { font-size: 15px; }
@@ -45,7 +35,10 @@ body {
 	color: #31475d;
 }
 
-.profile-header img{ max-width: 100%; }
+.profile-header img{
+	max-width: 100%;
+	border-radius: 10%;
+}
 
 .main-pic {
 	max-height: 100px;
@@ -99,11 +92,6 @@ body {
 	font-style: italic;
 }
 
-/* meter bars */
-meter::-webkit-meter-optimum-value {
-	background: red; /* Green */
-}
-
 /* progress bars */
 progress {
 	background-color: #f3f3f3;
@@ -147,6 +135,7 @@ progress::-webkit-progress-value {background-color: #000 !important;}
 .footer {
 	padding: 20px;
 	font-style: italic;
+	font-size: 95%;
 	/*background-color: #333;*/
 	/*color: white;*/
 }
