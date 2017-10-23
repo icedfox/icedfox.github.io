@@ -35,8 +35,8 @@
             <h3>Gael Genet</h3>
             <h4>Web developer</h4>
             <img class="header-icons" src="images/marker.png"> <span class="header-text">Oakville, ON, CA</span><br>
-            <a href="mailto:gael.genet@gmail.com">
-              <img class="header-icons" src="images/email.png"> <span class="header-text">gael.genet@gmail.com</span><br>
+            <a href="mailto:this@ggenet.pw">
+              <img class="header-icons" src="images/email.png"> <span class="header-text">this@ggenet.pw</span><br>
             </a>
             <a href="tel:+12899937500">
               <img class="header-icons" src="images/phone.png"> <span class="header-text">289-993-7500</span><br>
@@ -373,6 +373,8 @@
             var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 2,
               center: toronto,
+              streetViewControl: false,
+              mapTypeControl: false,
               styles: [{"featureType":"road","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"color":"#004b76"}]},{"featureType":"landscape.natural","stylers":[{"visibility":"on"},{"color":"#fff6cb"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#7f7d7a"},{"lightness":10},{"weight":1}]}]
             });
 
