@@ -1,0 +1,1 @@
+Just the basic for a personal website

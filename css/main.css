@@ -1,0 +1,152 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#about {
+	/*scroll-behavior: smooth;*/
+	padding-top: 5%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.header-icons { height: 15px; width: 15px; }
+.header-text { font-size: 15px; }
+
+.primary-header {
+	/*background-image: url('../album/1.jpg');*/
+	/*background-size: cover;*/
+	height: 100vh;
+	display: flex;
+	width: 100vw;
+}
+
+.primary-header h3 {
+	color: #31475d;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.primary-header h4 {
+	color: #31475d;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.primary-header a {
+	font-style: none;
+	text-decoration: none;
+	color: #31475d;
+}
+
+.profile-header img{ max-width: 100%; }
+
+.main-pic {
+	max-height: 100px;
+	border-radius: 50%;
+	border: 0px solid red;
+}
+.main-left {
+	text-align: center;
+}
+
+.main-right {
+	text-align: center;
+}
+
+@media (min-width: 400px) {
+	.main-pic { max-height: 200px; }
+	.main-left { text-align: center; }
+	.main-right { text-align: center; }
+}
+@media (min-width: 550px) {
+	.main-pic { max-height: 200px; }
+	.main-left { text-align: left; }
+	.main-right { text-align: right; }
+}
+
+
+
+/* skills */
+.skill-block { width: 100%; margin-bottom: 1rem;}
+.skill-title { width: 50%; display: inline-block;}
+.skill-bar { width: 50%; }
+
+/* resume */
+.resume-position {
+	font-weight: bold;
+	font-size: 120%;
+}
+.resume-company {
+	font-weight: bold;
+	/*color: #000000;*/
+}
+.resume-adneom {
+	font-weight: bold;
+	color: #ff1738;
+}
+.resume-date {
+	font-style: italic;
+	font-size: 90%;
+}
+.resume-technos {
+	font-style: italic;
+}
+
+/* meter bars */
+meter::-webkit-meter-optimum-value {
+	background: red; /* Green */
+}
+
+/* progress bars */
+progress {
+	background-color: #f3f3f3;
+	border: 0;
+	height: 10px;
+	border-radius: 9px;
+}
+progress::-webkit-progress-bar { background-color: #aaa; width: 100%; }
+progress::-webkit-progress-value {background-color: #000 !important;}
+
+/* map */
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+/* button */
+
+.arrow {
+	text-align: center;
+	margin-top: 20%;
+}
+.bounce {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}
+
+.footer {
+	padding: 20px;
+	font-style: italic;
+	/*background-color: #333;*/
+	/*color: white;*/
+}

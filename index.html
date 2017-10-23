@@ -1,24 +1,390 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>A Simple Page with CKEditor</title>
-        <!-- Make sure the path to CKEditor is correct. -->
-        <script src="./ckeditor/ckeditor.js"></script>
-        <script src="./ckfinder/ckfinder.js"></script>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </head>
-    <body>
-        <form>
-            <textarea name="editor1" id="editor1" rows="10" cols="80">
-                This is my textarea to be replaced with CKEditor.
-            </textarea>
-            <script>
-                // Replace the <textarea id="editor1"> with a CKEditor
-                // instance, using default configuration.
-                var editor = CKEDITOR.replace( 'editor1' );
-                CKFinder.setupCKEditor( editor );
-            </script>
-        </form>
-    </body>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Gael Genet</title>
+  <meta name="description" content="Gael's personal website">
+  <meta name="author" content="Gael Genet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="icon" type="image/png" href="images/favicon2.png">
+
+</head>
+<body>
+
+  <div class="primary-header">
+    <div class="container"  style="margin: auto">
+      <div class="row">
+        <div class="one-half column main-right">
+          <span style="display:inline-block; text-align: center;">
+            <img class="main-pic" src="images/me.jpg">
+          </span>
+        </div>
+        <div class="one-half column main-left">
+          <span style="display:inline-block; text-align: left;">
+            <h3>Gael Genet</h3>
+            <h4>Web developer</h4>
+            <img class="header-icons" src="images/marker.png"> <span class="header-text">Oakville, ON, CA</span><br>
+            <a href="mailto:gael.genet@gmail.com">
+              <img class="header-icons" src="images/email.png"> <span class="header-text">gael.genet@gmail.com</span><br>
+            </a>
+            <a href="tel:+12899937500">
+              <img class="header-icons" src="images/phone.png"> <span class="header-text">289-993-7500</span><br>
+            </a>
+            <a href="http://www.linkedin.com/in/gaelgenet">
+              <img class="header-icons" src="images/linkedin.png"> <span class="header-text">gaelgenet</span><br>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="arrow bounce">
+          <a class="" href="#about"><img src="images/arrow.png"></a>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <div class="container" id="about">
+    <div class="row profile-header">
+      <div class="column">
+        <img src="images/header2.jpg">
+      </div>
+    </div>
+
+    <!-- About -->
+    <h1>About me</h1>
+    <div class="row">
+      <div class="seven columns">
+        <!-- <h4>Profile</h4> -->
+        <p>
+          After gaining 2 years of experience in web development in Brussels, Belgium, as a volunteer in the French V.I.E. program (Volontariat International en Entreprise), I now have a work permit (IEC) in Canada. I am seeking opportunities in Toronto to continue growing all the while contributing to all kinds of projects. I've had the chance to work on both back and front ends of JavaScript projects for both desktop and mobile using the MEAN stack. I've also developed, integrated and deployed hybrid mobile applications with Ionic and Cordova.
+        </p>
+        <p>
+          Having worked over a year Agile/Scrum environments, I am completely convinced applying development methodologies is essential to a healthy workplace, team morale and productivity all around.
+        </p>
+        <p>
+          <ul>
+            <li>I am <strong>result-driven</strong> and <strong>organized</strong></li>
+            <li>I insist on <strong>code quality</strong></li>
+            <li>I am a <strong>fast learner</strong> and <strong>adapt quickly</strong></li>
+            <li><strong>I get things done</strong></li>
+          </ul>
+        </p>
+        <p>
+          Outside of work, I'm a curious guy who loves the outdoors and nature in general. I enjoy sports, cooking and baking, going to the movies, travelling and discovering new cultures.
+        </p>
+      </div>
+      <div class="five columns">
+        <h4>Skills</h4>
+        <p class="skill-block">
+          <span class="skill-title">JS (ES6)</span><progress class="skill-bar" value="4" max="5"></progress>
+        </p>
+        <p class="skill-block">
+          <span class="skill-title">HTML5 / CSS3</span><progress class="skill-bar" value="3" max="5"></progress>
+        </p>
+        <p class="skill-block">
+          <span class="skill-title">Node.js</span><progress class="skill-bar" value="3" max="5"></progress>
+        </p>
+        <p class="skill-block">
+          <span class="skill-title">Angular / Ionic 1.x</span><progress class="skill-bar" value="4" max="5"></progress>
+        </p>
+        <p class="skill-block">
+          <span class="skill-title">RDB / MySQL</span><progress class="skill-bar" value="3" max="5"></progress>
+        </p>
+        <h4>Languages</h4>
+        <p class="skill-block">
+          <span class="skill-title">English</span><progress class="skill-bar" value="5" max="5"></progress>
+        </p>
+        <p class="skill-block">
+          <span class="skill-title">French</span><progress class="skill-bar" value="5" max="5"></progress>
+        </p>
+        <h4>Current Focus</h4>
+        <p class="skill-block">
+          <span class="skill-title">Skrollr</span><progress class="skill-bar" value="1" max="5"></progress>
+        </p>
+        <p class="skill-block">
+          <span class="skill-title">Angular 2.x</span><progress class="skill-bar" value="1" max="5"></progress>
+        </p>
+      </div>
+    </div>
+
+    <!-- Resume -->
+    <div class="row">
+      <div class="column">
+        <h3>Resume</h3>
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="resume-date">09/2015 - 09/2017 (2 years)</span><br>
+                <span class="resume-position">Web Developer</span><br>
+                <span class="resume-adneom">@ Adneom</span>
+              </td>
+              <td>
+                <ul>
+                  <li>Volunteer in the French VIE program (Volontariat International en Entreprise)</li>
+                  <li>Coached interns in hybrid mobile development</li>
+                  <li>Successfully delivered all products for each project</li>
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="resume-date">01/2017 - 09/2017 (8 Months)</span><br>
+                <span class="resume-position">Node.js developer</span><br>
+                <span class="resume-company">@ WeAreTennis par BNP Paribas</span><br>
+                / <span class="resume-adneom">Adneom</span> Project<br>
+                <a href="https://wearetennis.bnpparibas/fr_FR/">wearetennis.bnpparibas</a>
+              </td>
+              <td>
+                <ul>
+                  <li>Fully developed the back-end (REST API) for both website and CMS</li>
+                  <li>Implemented unit testing to meet quality requirements</li>
+                  <li>Solved latency issues to enhance user experience</li>
+                  <li>Discussed and addressed security concerns</li>
+                  <li>Managed and implemented solutions from different service providers</li>
+                </ul>
+                <p class="resume-technos">
+                  Node.js, Express, MySQL, Sequelize, Mocha, Redis, Docker / Scrum
+                </p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="resume-date">09/2015 - 11/2015, 04/2016 - 09/2016 (6 Months)</span><br>
+                <span class="resume-position">Web & Hybrid Mobile App Developer</span><br>
+                <span class="resume-company">@ Urbantz</span> / <span class="resume-adneom">Adneom</span> Client<br>
+                <a href="http://www.urbantz.com/">urbantz.com</a>
+              </td>
+              <td>
+                <ul>
+                  <li>Maintained and optimized the performance of the Ionic app</li>
+                  <li>Implemented google map and canvas drawing functionalities</li>
+                  <li>Added app branding features for clients</li>
+                  <li>Successfully delivered a fully custom APK / IPA for a client</li>
+                </ul>
+                <p class="resume-technos">
+                  HTML, SCSS, AngularJs, Ionic, Cordova, Node.js, Express, MongoDB / Scrum
+                </p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="resume-date">01/2016 - 02/2016, 09/2016 - 12/2016 (5 Months)</span><br>
+                <span class="resume-position">Hybrid Mobile App Developer</span><br>
+                <span class="resume-company">@ Immodoo</span> / <span class="resume-adneom">Adneom</span> Client<br>
+                <a href="http://immodoo.fr/">immodoo.fr</a>
+              </td>
+              <td>
+                <ul>
+                  <li>Successfully took over the project in order to start on a v2</li>
+                  <li>Analysed business needs in order to find the best solutions</li>
+                  <li>Discussed and addressed UX, UI and performance issues</li>
+                  <li>Provided support for the Java / Cassandra back-end</li>
+                </ul>
+                <p class="resume-technos">
+                  HTML, SCSS, AngularJs, Ionic, Cordova, Java, Cassandra
+                </p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="resume-date">02/2016 - 04/2016 (3 Months)</span><br>
+                <span class="resume-position">Hybrid Mobile App Developer</span><br>
+                <span class="resume-company">@ MoodUP!</span> / <span class="resume-adneom">Adneom</span> Client<br>
+                <a href="https://itunes.apple.com/us/app/moodup/id964983528?mt=8">MoodUP on iTunes</a><br>
+                <a href="https://play.google.com/store/apps/details?id=com.moodup&hl=en">MoodUP on Google Play</a>
+              </td>
+              <td>
+                <ul>
+                  <li>Participated in business development</li>
+                  <li>Developed new features and implemented KPI loggers</li>
+                  <li>Discussed options and solved performance issues</li>
+                  <li>Integrated new flows and designs</li>
+                </ul>
+                <p class="resume-technos">
+                  HTML, SCSS, AngularJs, Ionic, Cordova, Node.js, MongoDB
+                </p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="resume-date">11/2015 to 12/2015 (2 Months)</span><br>
+                <span class="resume-position">Hybrid Mobile App Developer</span><br>
+                <span class="resume-company">@ Risers</span> / <span class="resume-adneom">Adneom</span> Project
+              </td>
+              <td>
+                <ul>
+                  <li>Provided backup support to the existing team</li>
+                  <li>Product delivery and store deployment</li>
+                </ul>
+                <p class="resume-technos">
+                  AngularJs, Ionic, Cordova
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="row">
+      <div class="column">
+        <h3>Education</h3>
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Year & School</th>
+              <th>Degree</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="">2013</span><br>
+                <span class="">SUPINFO – SAN FRANCISCO, CA, USA</span>
+              </td>
+              <td>
+                M.Sc (COMPUTER SCIENCE)<br>
+                Master’s thesis: Web Presence – Taking your business online
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span class="">2011</span><br>
+                <span class="">SUPINFO – TROYES, FRANCE</span>
+              </td>
+              <td>
+                B.Sc (HONS) (COMPUTER SCIENCE)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>Internships</h4>
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Company & period</th>
+              <th>Position</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="">07/2013 - 10/2013</span><br>
+                <span class="">Sunrise Home</span>
+              </td>
+              <td>
+                PHP Developer
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="">12/2011 - 10/2012</span><br>
+                <span class="">CRISTALLIN</span>
+              </td>
+              <td>
+                Java GWT Developer
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="">07/2010 - 10/2011</span><br>
+                <span class="">GRAVOTECH MARKING SAS</span>
+              </td>
+              <td>
+                Java GWT developer<br>
+                Custom software scripts developer (VBScript, JavaScript)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="row" style="margin-bottom: 10%;">
+      <div class="column">
+        <h3>Places I've seen</h3>
+        <p>
+          One of my goals in life is to discover different cultures around the globe. There are so many things to see in life, and I hope I get the chance to cover all continents. My last trip was Iceland in 2017, and I'm planning on Australia / New Zealand in the near future.
+        </p>
+        <div id="map"></div>
+        <script>
+          function initMap() {
+            let osaka = {lat: 34.6937, lng: 135.5022};
+            let tokyo = {lat: 35.6895, lng: 139.6917};
+            let hiroshima = {lat: 34.3852, lng: 132.4553};
+            let shanghai = {lat: 31.2304, lng: 121.4737};
+            let hongkong = {lat: 22.3964, lng: 114.1095};
+            let manila = {lat: 14.5995, lng: 120.9842};
+            let cebu = {lat: 10.3157, lng: 123.8854};
+            let kualalumpur = {lat: 3.1390, lng: 101.6869};
+            let paris = {lat: 48.8566, lng: 2.3522};
+            let brussels = {lat: 50.8503, lng: 4.3517};
+            let amsterdam = {lat: 52.3702, lng: 4.8952};
+            let sanfran = {lat: 37.7749, lng: -122.4194};
+            let newyork = {lat: 40.7128, lng: -74.0060};
+            let washdc = {lat: 38.9072, lng: -77.0369};
+            let toronto = {lat: 43.6532, lng: -79.3832};
+            let reykyjavik = {lat: 64.1265, lng: -21.8174};
+            let cityList = [osaka, tokyo, hiroshima, shanghai, hongkong, manila, cebu, kualalumpur, paris, brussels, amsterdam, sanfran, newyork, washdc, toronto, reykyjavik];
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 2,
+              center: toronto,
+              styles: [{"featureType":"road","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"color":"#004b76"}]},{"featureType":"landscape.natural","stylers":[{"visibility":"on"},{"color":"#fff6cb"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#7f7d7a"},{"lightness":10},{"weight":1}]}]
+            });
+
+            cityList.forEach(city => {
+              let marker = new google.maps.Marker({
+                position: city,
+                map: map
+                // icon: 'images/marker.png'
+              });
+            })
+
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_DZ9fx9MsmWusTde_GnIQ-wNK7wplqG4&callback=initMap">
+        </script>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        
+        Interested in the few icons I've used on this page? They're free <a href="https://icons8.com/">here</a><br>
+        I coded this page in a day by using <a href="http://getskeleton.com/">Skeleton</a><br>
+        Gael Genet 2017
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
