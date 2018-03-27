@@ -39,6 +39,7 @@ body { overflow-x: hidden; }
 .profile-header img{
 	max-width: 100%;
 	border-radius: 10%;
+	margin-bottom: 5%;
 }
 
 .main-pic {
@@ -65,6 +66,14 @@ body { overflow-x: hidden; }
 	.main-right { text-align: right; }
 }
 
+/* colors */
+.c-adneom {
+	color: #ff1738;
+}
+.c-td {
+	color: #4B286D;
+}
+
 
 
 /* skills */
@@ -84,6 +93,10 @@ body { overflow-x: hidden; }
 .resume-adneom {
 	font-weight: bold;
 	color: #ff1738;
+}
+.resume-td {
+	font-weight: bold;
+	color: #4B286D;
 }
 .resume-date {
 	font-style: italic;

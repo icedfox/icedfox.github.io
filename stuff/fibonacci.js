@@ -41,3 +41,13 @@ function getFiboN2(n) {
 }
 
 getFiboN2(12);
+
+// 3
+
+function getFiboN3(n) {
+	if (n <= 1) return n;
+
+	return getFiboN3(n-1) + getFiboN3(n-2);
+}
+
+announceResult(12, getFiboN3(12));
